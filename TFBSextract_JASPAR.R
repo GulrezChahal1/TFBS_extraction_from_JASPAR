@@ -1,0 +1,7 @@
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install("TFBSTools")
+browseVignettes("TFBSTools")
+library(TFBSTools)
+library(JASPAR2014)
+BiocManager::install("JASPAR2016")
